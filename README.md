@@ -1,6 +1,6 @@
 # NSCLC RNA machine learning
 
-After finishing my high-school circRNA study, I began exploring machine learning
+After finishing a circRNA bioinformatics study, I began exploring machine learning
 with a collaborator at Vanderbilt. That work was never completed. This repository
 picks it back up, starting with the data and the original clustering notebooks.
 
