@@ -1,6 +1,13 @@
 name: Reproduce analysis
 on:
   push:
+    paths:
+      - "src/**"
+      - "scripts/**"
+      - "tests/**"
+      - "data/source/**"
+      - "requirements.txt"
+      - ".github/workflows/**"
   workflow_dispatch:
 permissions:
   contents: read
