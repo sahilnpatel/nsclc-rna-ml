@@ -19,7 +19,7 @@ sorted MCM5 values. Both historical notebooks also requested 1,000 clusters for
 1,000 observations. Those runs are archived, not used as valid results.
 The new workflow joins by TCGA ID and analyzes **1,017 primary tumors**.
 
-Read [the original-study audit](https://github.com/sahilnpatel/nsclc-circrna-analysis)
+Read [the original-study audit](https://github.com/sahilnpatel/circrna-mirna-mrna)
 and [the ML audit](docs/ML_AUDIT.md) before interpreting the figures.
 
 ## Run the project
