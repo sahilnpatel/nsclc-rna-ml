@@ -5,7 +5,7 @@
 - Silhouette: https://scikit-learn.org/stable/modules/generated/sklearn.metrics.silhouette_score.html
 - Data leakage guidance: https://scikit-learn.org/stable/common_pitfalls.html
 - GSVA: https://www.bioconductor.org/packages/release/bioc/vignettes/GSVA/inst/doc/GSVA.html
-- Original source audit: https://github.com/sahilnpatel/nsclc-circrna-analysis
+- Original source audit: https://github.com/sahilnpatel/circrna-mirna-mrna
 
 The Gaussian comparison in this project is a heuristic reference, not the formal
 gap statistic or a calibrated test for the existence of clusters.
