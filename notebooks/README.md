@@ -1,0 +1,1 @@
+Install Jupyter separately if needed (`python -m pip install jupyterlab`). Use the same Python environment as the command-line analysis. The notebook is a learning interface to tested functions; the CLI is the canonical reproducible run.
