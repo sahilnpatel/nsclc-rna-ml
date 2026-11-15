@@ -10,3 +10,7 @@ consistent results. These are recorded as a reproducibility concern, not suppres
 or dismissed. Linux CI is provided to test a clean, separate environment and save
 fresh outputs as an Actions artifact. Inspect its actual status before claiming a
 cross-platform reproduction. The R/GSVA rerun has not been executed.
+
+## Independent Linux reproduction
+
+GitHub Actions run https://github.com/sahilnpatel/nsclc-rna-ml/actions/runs/43682543244 succeeded on November 15, 2026. Fresh dependency installation, seven ML tests, and the full default benchmark completed successfully; the run published a reproduced-results artifact. The local optional t-SNE figures have not yet been compared byte-for-byte with Linux outputs.

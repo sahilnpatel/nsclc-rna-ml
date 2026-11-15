@@ -1,8 +1,8 @@
 # Environment
 
 Tested with Python 3.12, NumPy 2.2.1, SciPy 1.18.1, scikit-learn 1.6.1,
-and pytest 8.3.4. `requirements.txt` pins this executed environment. A fresh
-installation was not tested because this workstation could not reach PyPI.
+and pytest 8.3.4. `requirements.txt` pins this executed environment. A fresh Linux
+installation and full default run passed on GitHub Actions; see VALIDATION.md.
 
 On macOS Accelerate, set `VECLIB_MAXIMUM_THREADS=1` before Python starts.
 The local Accelerate/NumPy combination emits floating-point warnings during some
