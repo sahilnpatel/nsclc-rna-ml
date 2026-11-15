@@ -1,0 +1,118 @@
+{
+  "seed": 52,
+  "repeats": 8,
+  "n_samples": 1017,
+  "cohort": "primary tumors only",
+  "versions": {
+    "numpy": "2.2.1",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.6.1"
+  },
+  "source_hashes": {
+    "mcm5.tsv": "a5b91f9c43011b4b629789399e3cc25c1ad33b5010271b8003cf16e92ee1405f",
+    "mir885_targets.tsv": "ac41f9824cb3ff4149808dcb7b924d9c0a73aad7a588d07b072c45289eddcb36",
+    "pathways.tsv": "28628de68c25922a02591e09c4e7591a0ae6dfa53fe24c86afa15f3e810b0922"
+  },
+  "experiments": {
+    "two_marker": {
+      "features": [
+        "MCM5",
+        "mir885_activity_proxy"
+      ],
+      "candidate_k": 2,
+      "candidate_metrics": {
+        "k": 2,
+        "silhouette": 0.3748493196173765,
+        "inertia": 1179.4588855542395,
+        "smallest_cluster": 477,
+        "largest_cluster": 540,
+        "seed_ari_mean": 1.0,
+        "subsample_ari_mean": 0.9611954423743871,
+        "subsample_ari_min": 0.9265924886391226,
+        "null_silhouette_mean": 0.354745664403814,
+        "null_silhouette_sd": 0.007252630459869497
+      },
+      "gmm_bic_candidate": 2,
+      "pca_variance_explained": [
+        0.6244248840556472,
+        0.3755751159443527
+      ]
+    },
+    "pathways": {
+      "features": [
+        "GOBP_REGULATION_OF_MORPHOGENESIS_OF_AN_EPITHELIUM",
+        "GOBP_REGULATION_OF_RAS_PROTEIN_SIGNAL_TRANSDUCTION",
+        "GOBP_GLAND_DEVELOPMENT",
+        "GOBP_REGULATION_OF_HISTONE_MODIFICATION",
+        "GOBP_ENDOMEMBRANE_SYSTEM_ORGANIZATION",
+        "GOBP_FOREBRAIN_DEVELOPMENT",
+        "GOBP_CELLULAR_RESPONSE_TO_OXYGEN_LEVELS",
+        "GOBP_REGULATION_OF_BINDING",
+        "GOBP_REGULATION_OF_CELLULAR_COMPONENT_SIZE",
+        "GOBP_REGULATION_OF_PROTEIN_DEPHOSPHORYLATION",
+        "REACTOME_REGULATION_OF_INSULIN_LIKE_GROWTH_FACTOR_IGF_TRANSPORT_AND_UPTAKE_BY_INSULIN_LIKE_GROWTH_FACTOR_BINDING_PROTEINS_IGFBPS"
+      ],
+      "candidate_k": 2,
+      "candidate_metrics": {
+        "k": 2,
+        "silhouette": 0.23456234730336228,
+        "inertia": 7926.370851069602,
+        "smallest_cluster": 490,
+        "largest_cluster": 527,
+        "seed_ari_mean": 0.9960697659131084,
+        "subsample_ari_mean": 0.9687971649495822,
+        "subsample_ari_min": 0.9494730808421176,
+        "null_silhouette_mean": 0.2284958284412857,
+        "null_silhouette_sd": 0.009299603284506047
+      },
+      "gmm_bic_candidate": 2,
+      "pca_variance_explained": [
+        0.4362993551818073,
+        0.15248799895898216
+      ]
+    },
+    "combined": {
+      "features": [
+        "MCM5",
+        "mir885_activity_proxy",
+        "GOBP_REGULATION_OF_MORPHOGENESIS_OF_AN_EPITHELIUM",
+        "GOBP_REGULATION_OF_RAS_PROTEIN_SIGNAL_TRANSDUCTION",
+        "GOBP_GLAND_DEVELOPMENT",
+        "GOBP_REGULATION_OF_HISTONE_MODIFICATION",
+        "GOBP_ENDOMEMBRANE_SYSTEM_ORGANIZATION",
+        "GOBP_FOREBRAIN_DEVELOPMENT",
+        "GOBP_CELLULAR_RESPONSE_TO_OXYGEN_LEVELS",
+        "GOBP_REGULATION_OF_BINDING",
+        "GOBP_REGULATION_OF_CELLULAR_COMPONENT_SIZE",
+        "GOBP_REGULATION_OF_PROTEIN_DEPHOSPHORYLATION",
+        "REACTOME_REGULATION_OF_INSULIN_LIKE_GROWTH_FACTOR_IGF_TRANSPORT_AND_UPTAKE_BY_INSULIN_LIKE_GROWTH_FACTOR_BINDING_PROTEINS_IGFBPS"
+      ],
+      "candidate_k": 2,
+      "candidate_metrics": {
+        "k": 2,
+        "silhouette": 0.20568172939635224,
+        "inertia": 9912.0599723942,
+        "smallest_cluster": 482,
+        "largest_cluster": 535,
+        "seed_ari_mean": 1.0,
+        "subsample_ari_mean": 0.939184110222478,
+        "subsample_ari_min": 0.8742946886187223,
+        "null_silhouette_mean": 0.20051940839237203,
+        "null_silhouette_sd": 0.006466366340262763
+      },
+      "gmm_bic_candidate": 1,
+      "pca_variance_explained": [
+        0.37549708314860264,
+        0.18185884907876218
+      ]
+    }
+  },
+  "limitations": [
+    "Exploratory same-cohort selection; no external validation.",
+    "The miRNA proxy signature contains MCM5.",
+    "Pathway features overlap biologically and are not independent.",
+    "No direct circRNA/miRNA assay, survival, stage, batch, or LUAD/LUSC annotations.",
+    "A best-k candidate does not establish discrete biological subtypes."
+  ],
+  "primary_tumor_correlation": -0.24884976811129458
+}

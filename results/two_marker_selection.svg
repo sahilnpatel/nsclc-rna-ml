@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="530">
+<rect width="900" height="530" fill="white"/>
+<g font-family="Arial,sans-serif" fill="#172a3a">
+<text x="60" y="34" font-size="20">two_marker: cluster separation against a reference</text>
+<path d="M85 65V420H860" fill="none" stroke="#526777"/>
+<text x="77" y="404.0" text-anchor="end" font-size="12">0.309</text>
+<text x="77" y="326.5" text-anchor="end" font-size="12">0.326</text>
+<text x="77" y="249.0" text-anchor="end" font-size="12">0.342</text>
+<text x="77" y="171.5" text-anchor="end" font-size="12">0.358</text>
+<text x="77" y="94.0" text-anchor="end" font-size="12">0.375</text>
+<text x="105.0" y="445" text-anchor="middle">2</text>
+<text x="227.5" y="445" text-anchor="middle">3</text>
+<text x="350.0" y="445" text-anchor="middle">4</text>
+<text x="472.5" y="445" text-anchor="middle">5</text>
+<text x="595.0" y="445" text-anchor="middle">6</text>
+<text x="717.5" y="445" text-anchor="middle">7</text>
+<text x="840.0" y="445" text-anchor="middle">8</text>
+<polyline points="105.0,90.0 227.5,218.3 350.0,263.4 472.5,400.0 595.0,299.2 717.5,292.4 840.0,322.5" fill="none" stroke="#2563eb" stroke-width="3"/>
+<text x="90" y="505" font-size="13" fill="#2563eb">Observed silhouette</text>
+<polyline points="105.0,185.0 227.5,308.1 350.0,307.9 472.5,327.4 595.0,328.6 717.5,315.0 840.0,336.3" fill="none" stroke="#e76f51" stroke-width="3"/>
+<text x="350" y="505" font-size="13" fill="#e76f51">Single-Gaussian reference</text>
+<text transform="translate(20 260) rotate(-90)" text-anchor="middle">Silhouette (subsampled)</text>
+<text x="470" y="475" text-anchor="middle">Number of clusters (k)</text>
+</g></svg>

@@ -1,0 +1,25 @@
+{
+  "feature_order": [
+    "MCM5",
+    "mir885_activity_proxy"
+  ],
+  "mean": [
+    10.638963470993122,
+    -0.005010454694198643
+  ],
+  "scale": [
+    0.8535166526768551,
+    0.17623138986484896
+  ],
+  "centers": [
+    [
+      -0.6868672948662171,
+      0.6924213857964545
+    ],
+    [
+      0.6067327771318128,
+      -0.6116388907868685
+    ]
+  ],
+  "purpose": "Exploratory nearest-center assignment, not a clinical classifier"
+}
