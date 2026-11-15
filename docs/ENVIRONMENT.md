@@ -7,9 +7,8 @@ installation and full default run passed on GitHub Actions; see VALIDATION.md.
 On macOS Accelerate, set `VECLIB_MAXIMUM_THREADS=1` before Python starts.
 The local Accelerate/NumPy combination emits floating-point warnings during some
 large matrix operations, even with this setting. The tests pass, outputs remain
-finite, and independent distance/inertia/PCA checks are included. Treat the current
-figures as provisional until cross-platform reproduction resolves these warnings;
-no claim of a warning-free numerical run is made.
+finite, and independent distance/inertia/PCA checks are included. The independent Linux workflow completed successfully. These local warnings remain
+documented; exact cross-platform numerical equivalence has not been established.
 
 ```bash
 python3 -m venv .venv
