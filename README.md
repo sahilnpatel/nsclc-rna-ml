@@ -1,16 +1,16 @@
 # NSCLC RNA machine learning
 
-**Sahil Patel · an audited continuation of the circRNA research project**
+After finishing my high-school circRNA study, I began exploring machine learning
+with a collaborator at Vanderbilt. That work was never completed. This repository
+picks it back up, starting with the data and the original clustering notebooks.
 
-Can expression features motivated by a proposed circFNDC3B–miR-885-3p–MCM5 axis
-produce stable, interpretable patterns in primary NSCLC tumors?
+The question is whether MCM5 expression, an inferred miR-885-3p activity score,
+and pathway scores reveal useful patterns across primary NSCLC tumors. The
+current analysis compares K-means and Gaussian mixtures across three feature
+sets, then checks how much the results change across seeds and subsamples.
 
-This project rebuilds unfinished K-means work on correctly sample-matched data.
-It compares two-marker, pathway-only, and combined features using K-means,
-Gaussian mixtures, repeated seeds, subsampling, and a single-Gaussian reference.
-
-**Status:** working exploratory benchmark with saved results and tests. No new
-clinical subtype or validated diagnostic/survival model is claimed.
+The pipeline runs and the results are saved here. Whether these patterns have
+biological significance is still an open question.
 
 ## What changed
 
@@ -33,13 +33,13 @@ python -m pytest tests -q
 python scripts/run_analysis.py --tsne
 ```
 
-No downloaded raw matrix is needed for this saved-output analysis. The small,
-provenance-tracked inputs are in `data/source`. New score computation is a separate
+No downloaded raw matrix is needed for this saved-output analysis. The saved
+inputs are in `data/source`. New score computation is a separate
 step in the original-study repository.
 
 ## Results
 
-Read [the actual results](results/RESULTS.md) and [machine-readable summary](results/summary.json).
+Read [the results](results/RESULTS.md) and [machine-readable summary](results/summary.json).
 The tested settings favor k=2 for all three feature sets, but silhouettes are close
 to those of a single correlated Gaussian. Stable partitions can divide a continuous
 cloud: stability alone does not show that distinct biological populations exist.
@@ -47,12 +47,11 @@ cloud: stability alone does not show that distinct biological populations exist.
 ![Sample-aligned markers](results/aligned_markers.svg)
 ![Cluster-selection diagnostic](results/two_marker_selection.svg)
 
-## Work through this with me
+## Exploring the analysis
 
-Start with [START_HERE](docs/START_HERE.md), then open
-[the guided notebook](notebooks/01_work_through_the_project.ipynb).
-Each session has a concrete question, a small code experiment, and an output to
-explain. This is intended to be a project you understand and can discuss honestly.
+The [walkthrough](docs/START_HERE.md) covers sample matching, fitting a baseline,
+and interpreting the results. The [notebook](notebooks/01_work_through_the_project.ipynb)
+provides a small example to run and modify before working with the full pipeline.
 
 ## Files
 
@@ -68,7 +67,7 @@ explain. This is intended to be a project you understand and can discuss honestl
 | `tests` | Alignment, invalid-input, clustering, and model-export checks |
 | `docs` | Audit, experimental design, model card, and next tasks |
 
-## Limits that matter
+## Limitations
 
 - No direct circRNA or miRNA assay: the miRNA variable is a target-score proxy.
 - MCM5 is part of that signature. Leave-MCM5-out recomputation is a priority.
