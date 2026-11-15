@@ -24,6 +24,19 @@ and [the ML audit](docs/ML_AUDIT.md) before interpreting the figures.
 
 ## Run the project
 
+Use Python 3.12. From a terminal:
+
+```bash
+git clone https://github.com/sahilnpatel/nsclc-rna-ml.git
+cd nsclc-rna-ml
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+```
+
+On Windows, activate with `.venv\Scripts\activate` instead. See
+[environment notes](docs/ENVIRONMENT.md) for the tested versions and macOS settings.
+
 Follow [environment setup](docs/ENVIRONMENT.md), then from this repository root:
 
 ```bash
@@ -37,7 +50,32 @@ No downloaded raw matrix is needed for this saved-output analysis. The saved
 inputs are in `data/source`. New score computation is a separate
 step in the original-study repository.
 
+## Experiment design
+
+The pipeline matches TCGA sample IDs across the source exports, keeps primary
+tumors, and checks for duplicate patients, missing values, and constant features.
+It compares three inputs: MCM5 plus the miRNA proxy, 11 pathway scores, and all
+13 features together. Each feature is standardized before fitting.
+
+K-means is tested at k=2 through 8 with 20 initializations. Gaussian mixtures use
+1 through 8 components and are compared by BIC/AIC. Eight seed repeats and eight
+80% subsamples assess stability. A single-Gaussian reference checks whether a
+similar-looking partition could arise from a continuous distribution. These are
+exploratory comparisons within the same cohort, not held-out predictive accuracy.
+
+The [model card](docs/MODEL_CARD.md) gives the settings and limitations.
+
 ## Results
+
+| Features | Selected k | Silhouette | Gaussian reference | Subsample ARI |
+|---|---:|---:|---:|---:|
+| MCM5 + miRNA proxy | 2 | 0.375 | 0.355 | 0.961 |
+| 11 pathways | 2 | 0.235 | 0.228 | 0.969 |
+| Combined | 2 | 0.206 | 0.201 | 0.939 |
+
+Silhouette describes separation; ARI measures agreement between assignments.
+The small differences from the Gaussian reference matter when interpreting these
+otherwise stable splits. The reference is not a calibrated significance test.
 
 Read [the results](results/RESULTS.md) and [machine-readable summary](results/summary.json).
 The tested settings favor k=2 for all three feature sets, but silhouettes are close
