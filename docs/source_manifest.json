@@ -1,0 +1,264 @@
+[
+  {
+    "source_relative_path": "Research/Data Set Code.R",
+    "repository_path": "nsclc-circrna-analysis/archive/code/Data_Set_Code.R",
+    "bytes": 70,
+    "sha256": "6269627c41689d56d807e164890c66be5a978de5ee6e657b9ab5c89561675bbb"
+  },
+  {
+    "source_relative_path": "Research/GSVA miR885-3p Gene set.R",
+    "repository_path": "nsclc-circrna-analysis/archive/code/GSVA_miR885-3p_Gene_set.R",
+    "bytes": 1632,
+    "sha256": "37622223e4bc29ebc3dc7c712dfe91c439b401aff74b8159f21c53efa96b1531"
+  },
+  {
+    "source_relative_path": "Research/GSVAmRNAfunction.R",
+    "repository_path": "nsclc-circrna-analysis/archive/code/GSVAmRNAfunction.R",
+    "bytes": 154,
+    "sha256": "a1765ca0652c35785241b7213e5d67c3e25dac7a0a0822393363a40a33a4362c"
+  },
+  {
+    "source_relative_path": "Research Paper.pdf",
+    "repository_path": "nsclc-circrna-analysis/archive/paper/Research_Paper.pdf",
+    "bytes": 1145050,
+    "sha256": "17d5dd5af5ff251d7b76d2e838933768750a4b4926a073f9c7186e2e2c9b13df"
+  },
+  {
+    "source_relative_path": "Research Presentation.pdf",
+    "repository_path": "nsclc-circrna-analysis/archive/paper/Research_Presentation.pdf",
+    "bytes": 807689,
+    "sha256": "82bacf356e71103de709ac1bbab292d06f751ef2f13c60d8fc720d46c1721749"
+  },
+  {
+    "source_relative_path": "Patel_Subramanian.pdf",
+    "repository_path": "nsclc-circrna-analysis/archive/paper/Patel_Subramanian.pdf",
+    "bytes": 611959,
+    "sha256": "525a8d40aa9b3383ef94ce72c1e6d1b3249018c97706c9bc98a32ed30372c3cb"
+  },
+  {
+    "source_relative_path": "Research/Graphs/MCM5LungActivity.txt",
+    "repository_path": "nsclc-circrna-analysis/data/source/mcm5.tsv",
+    "bytes": 28879,
+    "sha256": "a5b91f9c43011b4b629789399e3cc25c1ad33b5010271b8003cf16e92ee1405f"
+  },
+  {
+    "source_relative_path": "Research/Gene Activity in TCGA /miRNA_expressions_data.csv",
+    "repository_path": "nsclc-circrna-analysis/data/source/mir885_targets.tsv",
+    "bytes": 48246,
+    "sha256": "ac41f9824cb3ff4149808dcb7b924d9c0a73aad7a588d07b072c45289eddcb36"
+  },
+  {
+    "source_relative_path": "Research/GSEA gene sets/Enrichmentscores_miRNAfunction.txt",
+    "repository_path": "nsclc-circrna-analysis/data/source/pathways.tsv",
+    "bytes": 181217,
+    "sha256": "28628de68c25922a02591e09c4e7591a0ae6dfa53fe24c86afa15f3e810b0922"
+  },
+  {
+    "source_relative_path": "Research/ML RNA/miRNA-mRNA data.csv",
+    "repository_path": "nsclc-circrna-analysis/data/source/legacy_ml.csv",
+    "bytes": 1016447,
+    "sha256": "133607340e03fc66835fadd0d07e318fddf8a25a8ddcdf7d7560cb1359dc1745"
+  },
+  {
+    "source_relative_path": "Research/GSEA gene sets/gsvaresults3.xlsx",
+    "repository_path": "nsclc-circrna-analysis/archive/gene_sets/gsvaresults3.xlsx",
+    "bytes": 46725,
+    "sha256": "74681623f639a1f71df44bc00c2290d74b75117e4952dafa1e9ba275f61f43b3"
+  },
+  {
+    "source_relative_path": "Research/GSEA gene sets/gsvaresults5.txt",
+    "repository_path": "nsclc-circrna-analysis/archive/gene_sets/gsvaresults5.txt",
+    "bytes": 83844,
+    "sha256": "93bd8810b3d43612d15dca3b59515e088a27bdfd90bd4b3165e3203450ba9202"
+  },
+  {
+    "source_relative_path": "Research/GSEA gene sets/HONMA_DOCETAXEL_RESISTANCE.v2023.1.Hs.gmt",
+    "repository_path": "nsclc-circrna-analysis/archive/gene_sets/HONMA_DOCETAXEL_RESISTANCE.v2023.1.Hs.gmt",
+    "bytes": 327,
+    "sha256": "a07ea5cb92c3ab121c9a69f7127166bd6f6e7227d30540071fc31290d123242b"
+  },
+  {
+    "source_relative_path": "Research/GSEA gene sets/WP_REGULATORY_CIRCUITS_OF_THE_STAT3_SIGNALING_PATHWAY.v2023.1.Hs.gmt",
+    "repository_path": "nsclc-circrna-analysis/archive/gene_sets/WP_REGULATORY_CIRCUITS_OF_THE_STAT3_SIGNALING_PATHWAY.v2023.1.Hs.gmt",
+    "bytes": 642,
+    "sha256": "f6dad01ab46bdff626d1074b0965d28aa8319c9f72176fd824739e4a7b6819a9"
+  },
+  {
+    "source_relative_path": "Research/GSEA gene sets/gsvaresults4.txt",
+    "repository_path": "nsclc-circrna-analysis/archive/gene_sets/gsvaresults4.txt",
+    "bytes": 83837,
+    "sha256": "e76980f8880e2a71b5ac8901f18777de8e9bf5686ac195482e51c84b1630f1a9"
+  },
+  {
+    "source_relative_path": "Research/GSEA gene sets/GOBP_REGULATION_OF_MORPHOGENESIS_OF_AN_EPITHELIUM.v2023.1.Hs.gmt",
+    "repository_path": "nsclc-circrna-analysis/archive/gene_sets/GOBP_REGULATION_OF_MORPHOGENESIS_OF_AN_EPITHELIUM.v2023.1.Hs.gmt",
+    "bytes": 507,
+    "sha256": "d355f535912391acebe223787c72dd76d97081457aa7bee91ad7ccfb3a2eac02"
+  },
+  {
+    "source_relative_path": "Research/GSEA gene sets/GOBP_REGULATION_OF_BINDING.v2023.1.Hs.gmt",
+    "repository_path": "nsclc-circrna-analysis/archive/gene_sets/GOBP_REGULATION_OF_BINDING.v2023.1.Hs.gmt",
+    "bytes": 2292,
+    "sha256": "6baacaa024a0d81289360952a5a5488cd55e76959cd1f7c40ff59b7e9d38523d"
+  },
+  {
+    "source_relative_path": "Research/GSEA gene sets/gsvaresults2.xlsx",
+    "repository_path": "nsclc-circrna-analysis/archive/gene_sets/gsvaresults2.xlsx",
+    "bytes": 94850,
+    "sha256": "6c83e2b3d9cb7fa5fb3d216200b00c1b4474caf59bbaa63381f137f153891fd9"
+  },
+  {
+    "source_relative_path": "Research/GSEA gene sets/PID_ECADHERIN_STABILIZATION_PATHWAY.v2023.1.Hs.gmt",
+    "repository_path": "nsclc-circrna-analysis/archive/gene_sets/PID_ECADHERIN_STABILIZATION_PATHWAY.v2023.1.Hs.gmt",
+    "bytes": 358,
+    "sha256": "1e767ccddb94e8871454fd1c65dea6ad3a5677e6afe2bcf7cda89d77487916bd"
+  },
+  {
+    "source_relative_path": "Research/GSEA gene sets/GOBP_REGULATION_OF_WNT_SIGNALING_PATHWAY.v2023.1.Hs.gmt",
+    "repository_path": "nsclc-circrna-analysis/archive/gene_sets/GOBP_REGULATION_OF_WNT_SIGNALING_PATHWAY.v2023.1.Hs.gmt",
+    "bytes": 2183,
+    "sha256": "5d7dbcf26d89dcf4dfe13b668051fe75f212c6255cce34edcb34d756133894bf"
+  },
+  {
+    "source_relative_path": "Research/GSEA gene sets/REACTOME_TGF_BETA_RECEPTOR_SIGNALING_IN_EMT_EPITHELIAL_TO_MESENCHYMAL_TRANSITION.v2023.1.Hs.gmt",
+    "repository_path": "nsclc-circrna-analysis/archive/gene_sets/REACTOME_TGF_BETA_RECEPTOR_SIGNALING_IN_EMT_EPITHELIAL_TO_MESENCHYMAL_TRANSITION.v2023.1.Hs.gmt",
+    "bytes": 312,
+    "sha256": "02f40b7ff90d663cc1dfe3ccb2e90c28d5b27efec47c6ead0117586aff92c9f3"
+  },
+  {
+    "source_relative_path": "Research/GSEA gene sets/GOBP_ENDOMEMBRANE_SYSTEM_ORGANIZATION.v2023.1.Hs.gmt",
+    "repository_path": "nsclc-circrna-analysis/archive/gene_sets/GOBP_ENDOMEMBRANE_SYSTEM_ORGANIZATION.v2023.1.Hs.gmt",
+    "bytes": 3937,
+    "sha256": "b0f4cd4a81b824575302fd4bcf6cbbaee67ecc6234980b4731aa15df11e475f2"
+  },
+  {
+    "source_relative_path": "Research/GSEA gene sets/REACTOME_REGULATION_OF_INSULIN_LIKE_GROWTH_FACTOR_IGF_TRANSPORT_AND_UPTAKE_BY_INSULIN_LIKE_GROWTH_FACTOR_BINDING_PROTEINS_IGFBPS.v2023.1.Hs.gmt",
+    "repository_path": "nsclc-circrna-analysis/archive/gene_sets/REACTOME_REGULATION_OF_INSULIN_LIKE_GROWTH_FACTOR_IGF_TRANSPORT_AND_UPTAKE_BY_INSULIN_LIKE_GROWTH_FACTOR_BINDING_PROTEINS_IGFBPS.v2023.1.Hs.gmt",
+    "bytes": 1013,
+    "sha256": "7067658ae162d7220cba120bc1154e3fb5a9cd4163a218278fe17ce00815ec33"
+  },
+  {
+    "source_relative_path": "Research/GSEA gene sets/REACTOME_DOWNREGULATION_OF_TGF_BETA_RECEPTOR_SIGNALING.v2023.1.Hs.gmt",
+    "repository_path": "nsclc-circrna-analysis/archive/gene_sets/REACTOME_DOWNREGULATION_OF_TGF_BETA_RECEPTOR_SIGNALING.v2023.1.Hs.gmt",
+    "bytes": 328,
+    "sha256": "63bca1d702bd5f566397166cbccd2cd4c4a3ccbabc7542ca614a936cfe369dcd"
+  },
+  {
+    "source_relative_path": "Research/GSEA gene sets/GSEA gene sets.xlsx",
+    "repository_path": "nsclc-circrna-analysis/archive/gene_sets/GSEA gene sets.xlsx",
+    "bytes": 39555,
+    "sha256": "fdd68f90edfe69b9968e45ad12a6973f1640793a08113821259fe9c70ef5613e"
+  },
+  {
+    "source_relative_path": "Research/GSEA gene sets/STEARMAN_LUNG_CANCER_EARLY_VS_LATE_UP.v2023.1.Hs.gmt",
+    "repository_path": "nsclc-circrna-analysis/archive/gene_sets/STEARMAN_LUNG_CANCER_EARLY_VS_LATE_UP.v2023.1.Hs.gmt",
+    "bytes": 908,
+    "sha256": "dd3502769ab7ef628dd82de3b771be05ee8e8486b35899010df9b6e443e11007"
+  },
+  {
+    "source_relative_path": "Research/GSEA gene sets/PID_NCADHERIN_PATHWAY.v2023.1.Hs.gmt",
+    "repository_path": "nsclc-circrna-analysis/archive/gene_sets/PID_NCADHERIN_PATHWAY.v2023.1.Hs.gmt",
+    "bytes": 291,
+    "sha256": "e56456cc92cb8995447d2fc753baaf9a884b8dd8fb71976333f7a2236defd43f"
+  },
+  {
+    "source_relative_path": "Research/GSEA gene sets/GOBP_REGULATION_OF_PROTEIN_DEACETYLATION.v2023.1.Hs.gmt",
+    "repository_path": "nsclc-circrna-analysis/archive/gene_sets/GOBP_REGULATION_OF_PROTEIN_DEACETYLATION.v2023.1.Hs.gmt",
+    "bytes": 485,
+    "sha256": "65ee51fd198f4193fb2739f4e10b3c29074c39c4835b1a4ed316e581f4f58cb8"
+  },
+  {
+    "source_relative_path": "Research/GSEA gene sets/GOBP_REGULATION_OF_HISTONE_MODIFICATION.v2023.1.Hs.gmt",
+    "repository_path": "nsclc-circrna-analysis/archive/gene_sets/GOBP_REGULATION_OF_HISTONE_MODIFICATION.v2023.1.Hs.gmt",
+    "bytes": 995,
+    "sha256": "c921f10a85cc135ba0b2d000465b1e174464e994cafa070bb3a47254a7af7f23"
+  },
+  {
+    "source_relative_path": "Research/GSEA gene sets/GOBP_REGULATION_OF_RAS_PROTEIN_SIGNAL_TRANSDUCTION.v2023.1.Hs.gmt",
+    "repository_path": "nsclc-circrna-analysis/archive/gene_sets/GOBP_REGULATION_OF_RAS_PROTEIN_SIGNAL_TRANSDUCTION.v2023.1.Hs.gmt",
+    "bytes": 1324,
+    "sha256": "098c70a22a933fd1a9649e49366163604e1309ea2029f067c5b0c68dd7403409"
+  },
+  {
+    "source_relative_path": "Research/GSEA gene sets/GOBP_REGULATION_OF_CELLULAR_COMPONENT_SIZE.v2023.1.Hs.gmt",
+    "repository_path": "nsclc-circrna-analysis/archive/gene_sets/GOBP_REGULATION_OF_CELLULAR_COMPONENT_SIZE.v2023.1.Hs.gmt",
+    "bytes": 2297,
+    "sha256": "bcd93de342420482fef3aadb5cdaa48a3803596dd72c4cd8fd4d3d903e4e6824"
+  },
+  {
+    "source_relative_path": "Research/GSEA gene sets/GOBP_REGULATION_OF_PROTEIN_DEPHOSPHORYLATION.v2023.1.Hs.gmt",
+    "repository_path": "nsclc-circrna-analysis/archive/gene_sets/GOBP_REGULATION_OF_PROTEIN_DEPHOSPHORYLATION.v2023.1.Hs.gmt",
+    "bytes": 715,
+    "sha256": "fd660bfefa78480dd4832b9b26768238047a05a01a7e331e5d1e816c40fb87e8"
+  },
+  {
+    "source_relative_path": "Research/GSEA gene sets/PID_ECADHERIN_NASCENT_AJ_PATHWAY.v2023.1.Hs.gmt",
+    "repository_path": "nsclc-circrna-analysis/archive/gene_sets/PID_ECADHERIN_NASCENT_AJ_PATHWAY.v2023.1.Hs.gmt",
+    "bytes": 352,
+    "sha256": "07ffe2eaf6d38269afd56159d5c11fff9870c21707a7a58716581325507bd447"
+  },
+  {
+    "source_relative_path": "Research/GSEA gene sets/GOBP_GLAND_DEVELOPMENT.v2023.1.Hs.gmt",
+    "repository_path": "nsclc-circrna-analysis/archive/gene_sets/GOBP_GLAND_DEVELOPMENT.v2023.1.Hs.gmt",
+    "bytes": 2645,
+    "sha256": "1db64c5c62c2b2793bafec21cceb2953df7a5dc57e4f269971b6ff731ff4c0c5"
+  },
+  {
+    "source_relative_path": "Research/GSEA gene sets/GOBP_FOREBRAIN_DEVELOPMENT.v2023.1.Hs.gmt",
+    "repository_path": "nsclc-circrna-analysis/archive/gene_sets/GOBP_FOREBRAIN_DEVELOPMENT.v2023.1.Hs.gmt",
+    "bytes": 2468,
+    "sha256": "3e87ddbbc55e7036cff9163749ae0254cda0053e595032e944b0fb986b35f075"
+  },
+  {
+    "source_relative_path": "Research/GSEA gene sets/GOBP_CELLULAR_RESPONSE_TO_OXYGEN_LEVELS.v2023.1.Hs.gmt",
+    "repository_path": "nsclc-circrna-analysis/archive/gene_sets/GOBP_CELLULAR_RESPONSE_TO_OXYGEN_LEVELS.v2023.1.Hs.gmt",
+    "bytes": 1165,
+    "sha256": "fabe9bf4518e10217feb537ec20bb401f23ec55a8df285cf08be2fc82f5cf49c"
+  },
+  {
+    "source_relative_path": "Research/GSEA gene sets/gsvaresults.txt",
+    "repository_path": "nsclc-circrna-analysis/archive/gene_sets/gsvaresults.txt",
+    "bytes": 41318,
+    "sha256": "ac427ece9f90ae65357417c41656775061de97c4fd1c067c7eabc99e9274be0d"
+  },
+  {
+    "source_relative_path": "Research/GSEA gene sets/KEGG_P53_SIGNALING_PATHWAY.v2023.1.Hs (1).gmt",
+    "repository_path": "nsclc-circrna-analysis/archive/gene_sets/KEGG_P53_SIGNALING_PATHWAY.v2023.1.Hs (1).gmt",
+    "bytes": 510,
+    "sha256": "196381063d371158a92153a37205c9d97ae568696c252d276b36e3f3b54e75f8"
+  },
+  {
+    "source_relative_path": "Research/GSEA gene sets/GSEA_gene_sets.xlsx",
+    "repository_path": "nsclc-circrna-analysis/archive/gene_sets/GSEA_gene_sets.xlsx",
+    "bytes": 38319,
+    "sha256": "b39d413082fed41c9d282d7e21df19eb4bb770fdf007591e4a382b6f1ea964dc"
+  },
+  {
+    "source_relative_path": "Research/Code/RNA Machine Learning.ipynb",
+    "sha256": "7ffe025c8745af2ce83e6877d9620e209af13c191beebc89dc42fbfee682f9bd",
+    "note": "Notebook copy has outputs removed and local paths redacted; analysis code otherwise preserved."
+  },
+  {
+    "source_relative_path": "Research/Code/ML II .ipynb",
+    "sha256": "78d2f7f63cd4a682dc1bb48bcf0b3ecce58444ab472b10a0e5967cbf8c554db8",
+    "note": "Notebook copy has outputs removed and local paths redacted; analysis code otherwise preserved."
+  },
+  {
+    "source_relative_path": "Research/TCGA.LUNG.sampleMap_HiSeqV2.txt",
+    "bytes": 167313539,
+    "sha256": "d37b9ed469db509063aaed8424747badfcc58360278e31f22098f4c7be1207ed",
+    "note": "Not committed: large source or obsolete serialized model."
+  },
+  {
+    "source_relative_path": "Research/Lung Cancer Data Set.RData",
+    "bytes": 64828363,
+    "sha256": "02f64450f75e49173913119ecb9583a59ce6a70154321cdc1acc70fd7b03e0f0",
+    "note": "Not committed: large source or obsolete serialized model."
+  },
+  {
+    "source_relative_path": "Research/Code/kmeans_model.pkl",
+    "bytes": 20743,
+    "sha256": "906caa10a72890c32a9f2fa010f22ff9da8a5166c90f5face4c98cdb47fae727",
+    "note": "Not committed: large source or obsolete serialized model."
+  }
+]
