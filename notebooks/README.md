@@ -1,1 +1,4 @@
-Install Jupyter separately if needed (`python -m pip install jupyterlab`). Use the same Python environment as the command-line analysis. The notebook is a learning interface to tested functions; the CLI is the canonical reproducible run.
+Install Jupyter if needed (`python -m pip install jupyterlab`) and use the same
+Python environment as the main analysis. This notebook runs a small example using
+the project functions. For the full experiment, run `python scripts/run_analysis.py`
+from the repository root.
