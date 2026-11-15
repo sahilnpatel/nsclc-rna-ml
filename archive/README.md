@@ -1,0 +1,1 @@
+Historical notebooks are retained with outputs cleared and local absolute paths replaced. They are known-invalid analyses (mispaired source rows and 1,000 clusters); do not run them as the supported workflow. The obsolete pickle is excluded. See ../docs/ML_AUDIT.md.
